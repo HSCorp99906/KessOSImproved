@@ -7,6 +7,11 @@ struct Arr {
 };
 
 
+void __stack_chk_fail() {
+	
+}
+
+
 int kmain() {
     volatile char* video_memory = (char*)0xB8000;
 	volatile uint8_t str[5] = {72, 101, 108, 108, 111};
