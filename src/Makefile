@@ -7,4 +7,4 @@ default:
 	rm *.o
 
 run:
-	qemu-system-x86_64 KessOS.iso
+	qemu-system-x86_64 -drive format=raw,file=KessOS.iso
